@@ -1,0 +1,58 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Cores e Temas */
+:root {
+    --car-bg-color-page: #fff;
+    --car-bg-color-header: #3C9AF0;
+    --car-bg-color-comments: #C8C8C8;
+
+    --car-border-color-cards: #3C9AF0;
+    --car-border-color-comments: #3C9AF0;
+
+    --car-font-color-brand: #fff;
+    --car-font-color-title: #5E5E5E;
+    --car-font-color-coments: #3C9AF0;
+    --car-font-color-footer: #fff;
+}
+
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    background-color: var(--car-bg-color-page);
+}
+
+/* Estilos de Link */
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+/* Estilos de Botão */
+
+button {
+    cursor: pointer;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Outros*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
