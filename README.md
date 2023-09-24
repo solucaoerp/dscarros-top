@@ -73,3 +73,19 @@ DSCarrosTop/
     min-width: 300px;
     max-width: 1200px;
     ```
+
+## Interface Responsiva para Mobile
+
+Aqui está uma prévia de como o projeto `DSCarrosTop` se parece em dispositivos móveis. O layout é otimizado para telas pequenas, garantindo uma excelente experiência do usuário.
+
+<div align="center">
+  <img src="src/assets/images/dscarros-top-mobile-320p.svg" alt="Visão Mobile do DSCarrosTop">
+</div>
+
+## Interface Responsiva para Desktop
+
+Abaixo está uma prévia do projeto em uma visão web padrão. O layout se adapta para aproveitar o espaço da tela, tornando o projeto igualmente eficaz em dispositivos desktop.
+
+<div align="center">
+  <img src="src/assets/images/dscarros-top-web-1200p.svg" alt="Visão Web do DSCarrosTop">
+</div>

@@ -1,0 +1,11 @@
+.comment-section-title {
+    font-size: 20px;
+    text-align: center;
+    color: var(--car-font-color-title-comment);
+}
+
+@media (min-width: 576px) {
+    .comment-section-title {
+        font-size: 32px;
+    }
+}

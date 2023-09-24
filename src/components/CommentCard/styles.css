@@ -1,0 +1,37 @@
+/* Container */
+.comment-container {
+    background-color: var(--car-bg-color-comments);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Card */
+.comment-card {
+    width: 280px;
+    height: 146px;
+    border-radius: 12px;
+    border: 1px solid var(--car-font-color-coments);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--car-bg-color-card-comment);
+}
+
+@media (min-width: 576px) {
+    .comment-card {
+        width: 100%;
+        max-width: 960px;
+        height: 74px;
+    }
+}
+
+/* Texto do Comentário */
+.comment-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--car-font-color-coments);
+}
