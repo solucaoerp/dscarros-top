@@ -12,6 +12,7 @@
 
     --car-font-color-brand: #fff;
     --car-font-color-title: #5E5E5E;
+    --car-font-color-description: #5E5E5E;
     --car-font-color-coments: #3C9AF0;
     --car-font-color-footer: #fff;
 }
@@ -42,17 +43,11 @@ button {
     cursor: pointer;
 }
 
-/* Responsividade */
-
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-}
-
 /* Outros*/
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

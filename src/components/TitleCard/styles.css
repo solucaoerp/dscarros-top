@@ -1,0 +1,12 @@
+h1 {
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    color: var(--car-font-color-title);
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 32px;
+    }
+}
