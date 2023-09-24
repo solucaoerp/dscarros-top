@@ -7,5 +7,5 @@ export default function Header() {
                 <h1 className="car-brand">DSCarrosTop</h1>
             </nav>
         </header>
-    )
+    );
 }
