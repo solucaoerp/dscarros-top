@@ -23,7 +23,6 @@
     margin: 5px 0;
 }
 
-/* Estilos para telas maiores que 576px */
 @media (min-width: 576px) {
     .car-footer {
         flex-direction: row;

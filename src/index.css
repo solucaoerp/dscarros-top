@@ -1,7 +1,5 @@
-/* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-/* Cores e Temas */
 :root {
     --car-bg-color-page: #fff;
     --car-bg-color-header: #3C9AF0;
@@ -20,7 +18,6 @@
     --car-font-color-footer: #fff;
 }
 
-/* Reset de Estilos */
 * {
     margin: 0;
     padding: 0;
@@ -33,20 +30,11 @@ body {
     background-color: var(--car-bg-color-page);
 }
 
-/* Estilos de Link */
 a,
 a:hover {
     text-decoration: none;
     color: unset;
 }
-
-/* Estilos de Botão */
-
-button {
-    cursor: pointer;
-}
-
-/* Outros*/
 
 .container {
     display: flex;
